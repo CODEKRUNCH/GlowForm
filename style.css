@@ -1,0 +1,60 @@
+body {
+    background-color: #121212; /* Dark gray/black for modern look */
+    color: white; /* White text for contrast */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+tr:hover
+{
+    background-color: yellowgreen;
+}
+tr
+{
+    text-align: center;
+}
+td
+{
+    padding: 8px;
+}
+th
+{
+    background: linear-gradient(to right, #63329f, #06b874);
+    padding: 15px;
+}
+.tablecontainer
+{
+    /* table flex is not available table so we create div to algin it ot center */
+    display: flex;
+    justify-content: center;
+}
+table
+{
+    /* removes exta borders in the table headers */
+    border-collapse: collapse;
+    width:50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+    padding: 20px;
+    background: linear-gradient(to right, #63329f, #0fb978);
+    border-radius:10px;
+    box-shadow: 0 0 15px 5px rgba(35, 10, 125, 0.6); /* Glowing effect */
+}
+.name,.age,.country
+{
+    padding: 8px;
+    border-radius: 5px;
+}
+.formbox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
